@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Cuadratica</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<body>
+	<div class="i1" id="div1">
+		<center>
+		<div class="hi1" id="hd1" onclick="cuad();">
+			Ecuación cuadrática
+		</div>
+		<div class="hi2" id="hd2" onclick="quees();">
+			¿Qué es?
+		</div>
+		<div class="hi3" id="hd3" onclick="soluc();">
+			Solucionar
+		</div>
+	</center>
+	</div>
+
+	<div class="d1" id="div2">
+		<div class="hd1" id=hdd1>
+			<center>
+				<br><br>
+			<h1>Página ecuación cuadrática</h1>
+			Por Ricardo Restrepo Calle
+			</center>
+		</div>
+		<div class="oculto" id="hdd2">
+			<center>
+				<br><br>
+			<h1>¿Qué es?</h1>
+			<br>
+			<div class="hs">
+			Una ecuación de segundo grado​​ o ecuación cuadrática de una variable es una ecuación que tiene la expresión general: donde x es la variable, y a, b y c constantes; a es el coeficiente cuadrático, b el coeficiente lineal y c es el término independiente.
+			<br><br><br><br>
+			<center>
+			<img src="imgcuadrática.png">
+			</center>
+			</div>
+			</center>
+		</div>
+		<div class="oculto" id="hdd3">
+			<center>
+				<br><br>
+			<h1>Solucionar</h1>
+			<br><br><br>
+			<div class="c1">
+				<br>
+				<form>
+					<input type="text" name="a" id="va" placeholder="ingrese la variable a">
+					<input type="text" name="b" id="vb" placeholder="ingrese la variable b">
+					<input type="text" name="c" id="vc" placeholder="ingrese la variable c">
+				</form>
+			</div>
+			<div class="r1" id="r1"></div>
+			<div class="e1" id="e1" onclick="resolver();">Resolver</div>
+			</center>
+		</div>
+	</div>
+
+<script src="cuadratica.js"></script>
+
+</body>
+</html>
